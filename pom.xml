@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>Self_Study_Telegram_Bot</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>22</maven.compiler.source>
+        <maven.compiler.target>22</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+<dependencies>
+    <dependency>
+        <groupId>com.github.pengrad</groupId>
+        <artifactId>java-telegram-bot-api</artifactId>
+        <version>7.2.1</version>
+    </dependency>
+    <dependency>
+        <groupId>org.telegram</groupId>
+        <artifactId>telegrambots-extensions</artifactId>
+        <version>7.2.0</version>
+    </dependency>
+    <dependency>
+        <groupId>org.telegram</groupId>
+        <artifactId>telegrambots-longpolling</artifactId>
+        <version>7.2.0</version>
+    </dependency>
+    <dependency>
+        <groupId>org.telegram</groupId>
+        <artifactId>telegrambots-client</artifactId>
+        <version>7.2.0</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-api</artifactId>
+        <version>5.11.3</version>
+        <scope>test</scope>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-engine</artifactId>
+        <version>5.11.3</version>
+        <scope>test</scope>
+    </dependency>
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>4.23.0</version>
+    </dependency>
+    <dependency>
+        <groupId>com.aventstack</groupId>
+        <artifactId>extentreports</artifactId>
+        <version>5.0.9</version> <!-- Kiểm tra phiên bản mới nhất -->
+    </dependency>
+
+    <!-- Dependency cho SLF4J (nếu cần) -->
+    <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-api</artifactId>
+        <version>1.7.30</version>
+    </dependency>
+    <dependency>
+        <groupId>com.google.api-client</groupId>
+        <artifactId>google-api-client</artifactId>
+        <version>2.0.0</version>
+    </dependency>
+    <dependency>
+        <groupId>com.google.oauth-client</groupId>
+        <artifactId>google-oauth-client-jetty</artifactId>
+        <version>1.35.0</version>
+    </dependency>
+    <dependency>
+        <groupId>com.google.apis</groupId>
+        <artifactId>google-api-services-drive</artifactId>
+        <version>v3-rev20220815-2.0.0</version>
+    </dependency>
+
+    <dependency>
+        <groupId>com.google.apis</groupId>
+        <artifactId>google-api-services-sheets</artifactId>
+        <version>v4-rev20230815-2.0.0</version>
+    </dependency>
+    <dependency>
+        <groupId>com.google.code.gson</groupId>
+        <artifactId>gson</artifactId>
+        <version>2.10</version>
+    </dependency>
+    <dependency>
+        <groupId>org.openpnp</groupId>
+        <artifactId>opencv</artifactId>
+        <version>4.9.0-0</version>
+    </dependency>
+    <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.13.2</version>
+        <scope>test</scope>
+    </dependency>
+    <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-databind</artifactId>
+        <version>2.15.2</version>
+    </dependency>
+    <dependency>
+        <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+        <version>1.18.30</version> <!-- Use a recent version -->
+        <scope>provided</scope>
+    </dependency>
+    <dependency>
+        <groupId>org.java-websocket</groupId>
+        <artifactId>Java-WebSocket</artifactId>
+        <version>1.5.3</version>
+    </dependency>
+    <dependency>
+        <groupId>io.rest-assured</groupId>
+        <artifactId>rest-assured</artifactId>
+        <version>5.3.0</version> <!-- Kiểm tra phiên bản mới nhất tại Maven Repository -->
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.github.java-json-tools/json-schema-validator -->
+    <dependency>
+        <groupId>com.github.java-json-tools</groupId>
+        <artifactId>json-schema-validator</artifactId>
+        <version>2.2.14</version>
+    </dependency>
+    <dependency>
+        <groupId>org.json</groupId>
+        <artifactId>json</artifactId>
+        <version>20230227</version> <!-- Kiểm tra phiên bản mới nhất -->
+    </dependency>
+    <dependency>
+        <groupId>org.assertj</groupId>
+        <artifactId>assertj-core</artifactId>
+        <version>3.24.2</version> <!-- Kiểm tra phiên bản mới nhất -->
+        <scope>test</scope>
+    </dependency>
+    <dependency>
+        <groupId>com.github.javafaker</groupId>
+        <artifactId>javafaker</artifactId>
+        <version>1.0.2</version>
+    </dependency>
+</dependencies>
+</project>
