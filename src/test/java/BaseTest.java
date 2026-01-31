@@ -28,7 +28,7 @@ public class BaseTest {
     public static void teardown() {
         if (driver != null) {
            DriverManager.closeDriver();
-            System.out.println("Webdriver closed.");
+            System.out.println("Webdriver closed");
         }
     }
 }
